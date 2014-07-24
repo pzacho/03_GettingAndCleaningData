@@ -4,6 +4,19 @@ CookBook
 ##Step by step description of creating tidy data set
 ####Coursera course: Getting and Cleaning Data
 
+#####Variables
+The following list is the variables used:
+
+* `ds_tst` is holding the test data set
+* `ds_train` is holding the training data set
+* `ds_merge` is holding the `rbind()` merger of the above data sets
+* `ds_tidy` is holding the tidy data set
+
+* `dateDownloaded` is the date and time stamp of the .zip file download
+* `ds_colnames` is holding the names of the columns in the combined test and training data set
+* `ds_activitylabels` is holding the textual representation of the subject activities
+
+
 #####Steps
 1. Check if .zip file is existing in the **work** directory.
 
